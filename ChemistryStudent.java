@@ -34,6 +34,6 @@ public class ChemistryStudent extends Student {
 
     @Override public void displayGrade() {
         System.out.println("Infomatics Grade: " + getInfomaticsGrade());
-        System.out.println("Biology Grade: " + getChemistryGrade());
+        System.out.println("Chemistry Grade: " + getChemistryGrade());
     }
 }
