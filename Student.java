@@ -1,17 +1,17 @@
 public abstract class Student {
-    private int studentId;
+    private String studentId;
     private String studentName;
     
-    public Student(int studentId, String studentName) {
+    public Student(String studentId, String studentName) {
         this.studentId = studentId;
         this.studentName = studentName;
     }
 
-    public int getStudentId() {
+    public String getStudentId() {
         return studentId;
     }
 
-    public void setStudentId(int studentId) {
+    public void setStudentId(String studentId) {
         this.studentId = studentId;
     }
 
