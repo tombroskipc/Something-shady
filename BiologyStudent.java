@@ -2,7 +2,7 @@ public class BiologyStudent extends Student {
     private float infomaticsGrade;
     private float biologyGrade;
 
-    public BiologyStudent(float studentId, String studentName, float infomaticsGrade, float biologyGrade) {
+    public BiologyStudent(int studentId, String studentName, float infomaticsGrade, float biologyGrade) {
         super(studentId, studentName);
         this.infomaticsGrade = infomaticsGrade;
         this.biologyGrade = biologyGrade;
